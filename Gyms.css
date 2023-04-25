@@ -1,0 +1,513 @@
+.gymHeader {
+  margin-top: 4%;
+  background-color: black;
+  /* background-image: linear-gradient(black); */
+  justify-content: space-between;
+  color: rgb(216, 13, 13);
+  text-align: center;
+  height: 30%;
+  font-size: 50px;
+  text-shadow: 5px 5px 5px rgb(202, 19, 19);
+}
+
+
+
+.aboutgym {
+  display: flex;
+  gap: 1rem;
+  padding-left: 4%;
+  background-image: linear-gradient(black);
+
+  /* background-image: linear-gradient(rgb(218, 7, 7)); */
+}
+
+.left-gym {
+  background-image: linear-gradient(black);
+  display: flex;
+  flex: 1 1;
+  gap: 1rem;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: white;
+  background-image: linear-gradient(black);
+  /* background-image: linear-gradient(black); */
+
+}
+
+.left-gym>:nth-child(1) {
+  color: black;
+  font-weight: bold;
+  font-size: 30px;
+
+
+
+}
+
+.left-gym>:nth-child(2),
+.left-gym>:nth-child(3) {
+  font-weight: bold;
+  font-size: 3rem;
+
+}
+
+.left-gym>:nth-child(4) {
+  text-transform: none;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 40px;
+}
+
+.right-gym {
+  background-image: linear-gradient(black, rgba(233, 10, 10, 0.651), black);
+  flex: 1;
+  position: relative;
+  /* background-image: linear-gradient(black); */
+}
+
+.right-gym>img {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  object-fit: cover;
+  right: 8rem;
+  top: 2rem;
+
+}
+
+.right-gym:hover {
+  transition: 100%;
+  opacity: 1sec;
+
+}
+
+.right-gym>:nth-child(1) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  border: solid white;
+  background-color: transparent;
+  right: 8.5rem;
+  top: 1.3rem;
+}
+
+.right-gym>:nth-child(2) {
+  position: absolute;
+  width: 17rem;
+  height: 20rem;
+  background: var(--planCard);
+  right: 7rem;
+  top: 3rem;
+}
+
+.arrows {
+  display: flex;
+  position: absolute;
+  gap: 4rem;
+  bottom: -12%;
+  left: 50%;
+}
+
+.arrows>img {
+  width: 20%;
+  cursor: pointer;
+}
+
+
+/* Program CSS */
+
+.programs {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 0 2rem;
+  background-image: linear-gradient(black);
+}
+
+.programs-header {
+  display: flex;
+  gap: 5rem;
+  font-weight: bold;
+  font-size: 3rem;
+  justify-content: center;
+  color: white;
+  text-transform: uppercase;
+  font-style: italic;
+}
+
+.program-categories {
+  display: flex;
+  gap: 1rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  background-image: linear-gradient(black, gray);
+  padding: 2rem;
+  gap: 1rem;
+  color: white;
+  justify-content: space-between;
+  transition: .2s;
+}
+
+.category:hover {
+  background: red;
+  cursor: pointer;
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+}
+
+.plan>svg {
+  fill: red;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* Reason CSS */
+
+.Reasons {
+  padding: 0 2rem;
+  display: flex;
+  grid-template: 2rem;
+
+}
+
+.left-r {
+  flex: 1 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+
+
+}
+
+.left-r>img {
+  object-fit: cover;
+
+}
+
+.left-r>img :hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  /* background-color: red; */
+
+}
+
+.left-r>:nth-child(1) {
+  width: 12rem;
+  grid-row: 1/3;
+  height: 28rem;
+
+}
+
+.left-r>:nth-child(2) {
+  width: auto;
+  grid-row: 1/3;
+  height: 16rem;
+  grid-column: 2/4;
+
+}
+
+.left-r>:nth-child(3) {
+  padding-top: 2rem;
+  width: 14rem;
+  grid-column: 2/3;
+  grid-row: 2;
+
+
+
+}
+
+.left-r>:nth-child(4) {
+  padding-top: 2rem;
+  width: 10rem;
+  grid-row: 2;
+  grid-column: 3/4;
+  height: 11.2rem;
+
+
+}
+
+.right-r {
+  flex: 1 1;
+  text-transform: uppercase;
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-r>span {
+  font-weight: bold;
+  color: red;
+}
+
+.right-r>div {
+  font-size: 3rem;
+  color: white;
+  font-weight: bold;
+
+}
+
+.details-r {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.details-r>div {
+  display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+
+
+}
+
+.partners {
+  display: flex;
+  gap: 1rem;
+
+}
+
+
+
+.partners>img {
+  width: 2.5rem;
+}
+
+/* Plans CSS */
+
+.plans-container {
+  background-image: linear-gradient(black, rgba(255, 0, 0, 0.589), black);
+  margin-top: -4rem;
+  padding: 0 2rem;
+  padding-left: 4rem;
+  padding-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  position: relative;
+
+}
+
+.plans-header {
+  color: white;
+  font-size: larger;
+  font-size: 4rem;
+  gap: 2rem;
+}
+
+.span {
+  text-align: center;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  color: red;
+}
+
+.plans {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+
+}
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  background-color: gray;
+  color: white;
+  gap: 2rem;
+  padding: 1.5rem;
+  width: 15rem;
+  transition: 0.2s;
+
+
+}
+
+.plan:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  background-color: red;
+}
+
+/* .plan:nth-child(2) {
+  background-color: rgb(252, 5, 5);
+  transform: scale(1.1);
+
+} */
+
+.plan>svg {
+  fill: red;
+  width: 2rem;
+  height: 2rem;
+}
+
+/* headings basic plan etc */
+.plan>:nth-child(2) {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+/* prices like 25$ */
+.plan>:nth-child(3) {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.feature {
+  display: flex;
+  align-items: center;
+  gap: .5rem;
+
+}
+
+.features>img {
+  width: 1rem;
+}
+
+.plans>:nth-child(2)>svg {
+  fill: white;
+}
+
+.plans>:nth-child(2)>button {
+  color: red;
+}
+
+
+/* Contact CSS */
+
+.contact {
+  padding: 0 2rem;
+  display: flex;
+  grid-template: 2rem;
+  background-image: linear-gradient(black);
+
+}
+
+.left-c {
+  flex: 1 1;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  grid-auto-rows: 1fr;
+  background-image: linear-gradient(black, red, red, black);
+  transition: 0.2s;
+
+}
+
+.left-c>img {
+  object-fit: cover;
+
+}
+
+.left-c>img:hover {
+  -ms-transform: scale(1.5);
+  /* IE 9 */
+  -webkit-transform: scale(1.5);
+  /* Safari 3-8 */
+  transform: scale(1.1);
+  background-color: red;
+}
+
+.left-c>:nth-child(1) {
+  width: 12rem;
+  grid-row: 1/3;
+  height: 28rem;
+
+}
+
+.left-c>:nth-child(2) {
+  width: 12rem;
+  grid-row: 1/3;
+  height: 28rem;
+  grid-column: 2/4;
+
+}
+
+.left-c>:nth-child(3) {
+
+  width: 14rem;
+  grid-column: 2/3;
+  grid-row: 3;
+  height: 10rem;
+  padding-top: 1.4rem;
+
+
+
+}
+
+.left-c>:nth-child(4) {
+
+  width: 10rem;
+  grid-row: 2;
+  grid-column: 3/4;
+  height: 11.2rem;
+
+
+}
+
+.right-c {
+  flex: 1 1;
+
+  gap: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.right-c>span {
+  font-weight: bold;
+  color: red;
+  font-size: 1.5rem;
+}
+
+.right-c>div {
+  font-size: 2.3rem;
+  color: white;
+  font-weight: bold;
+
+}
+
+.details-c {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+}
+
+.details-c>div {
+  display: flex;
+  font-size: 1rem;
+  gap: 1rem;
+
+
+}
+
+
+.email>img {
+  height: 2rem;
+  width: 2.3rem;
+
+}
+
+.adress>img {
+  height: 2rem;
+  width: 2.3rem;
+
+}
+
+.call>img {
+  height: 2rem;
+  width: 2.3rem;
+
+}

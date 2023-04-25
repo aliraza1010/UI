@@ -1,0 +1,40 @@
+.Footer-container {
+  position: relative;
+  background-image: linear-gradient(black, gray);
+
+}
+
+.Footer-container>hr {
+  border: 1px solid var(--lightgray);
+
+}
+
+.Footer {
+  padding: 1rem 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+  align-items: center;
+  justify-content: center;
+  height: 15rem;
+
+
+}
+
+.social-link {
+  display: flex;
+  gap: 4rem;
+}
+
+.social-link>img {
+  gap: 4rem;
+  height: 2rem;
+  width: 2rem;
+  cursor: pointer;
+
+}
+
+.logo-footer>img {
+  width: 300px;
+  height: 100px;
+}

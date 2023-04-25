@@ -1,0 +1,189 @@
+.hero {
+  display: flex;
+  justify-content: space-between;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 400px;
+  background-color: black;
+}
+
+/* Left div of frontpage */
+
+.left-h {
+
+  flex: 3;
+  position: relative;
+  background-color: var(--Red);
+  float: left;
+}
+
+.imp {
+  font-size: medium;
+  padding: 1rem;
+
+}
+
+/* Right div of frontpage */
+.right-text {
+
+  padding: 4rem;
+  padding-top: 1.5rem;
+  flex: 2;
+  display: flex;
+  gap: 2rem;
+  flex-direction: column;
+  background-color: black;
+}
+
+/* Main Heading text */
+.hero-text {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  text-transform: uppercase;
+  font-size: 3rem;
+  font-weight: bold;
+  color: white;
+  text-overflow: inherit;
+}
+
+/* Hero description  */
+.hero-text>div:nth-of-type(3) {
+  font-size: 1rem;
+  font-weight: 200;
+  text-transform: none;
+  letter-spacing: 1px;
+  width: 100%;
+}
+
+.pic {
+  height: 50%;
+  width: 35%;
+  float: right;
+  padding: 1rem;
+}
+
+.detail {
+  padding: 1rem;
+}
+
+.GM_Diet {
+  width: 100%;
+  height: 500px;
+
+  padding-left: 10px;
+}
+
+/* make variables */
+:root {
+  --lightgray: #D9D9D9;
+  --gray: #9c9c9c;
+  --Red: Red;
+  --darkGrey: #464D53;
+  --caloryCard: #656565;
+  --planCard: linear-gradient(210.41deg, #ff1b06 1.14%, #8d8c8cf1 100.75%);
+  --appColor: rgb(53, 40, 40);
+}
+
+.stroke-text {
+  color: transparent;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
+}
+
+.plan {
+  font-size: 1.5cm;
+}
+
+.hero_image1 {
+  background: url(https://i0.wp.com/post.healthline.com/wp-content/uploads/2021/07/berries-1296x728-header.jpg?w=1155&h=1528) no-repeat;
+  -webkit-background-size: cover;
+  background-size: cover;
+  height: 200px;
+  position: relative;
+  width: 100%
+}
+
+.hero_wrapper {
+  color: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.hero_wrapper h1 {
+  font-size: 2.4rem;
+  text-align: center;
+}
+
+
+.hero_wrapper span {
+  margin-left: 5rem;
+  display: inline-block;
+  margin-bottom: .5rem;
+}
+
+.product__list {
+
+  width: 100%;
+  margin-top: .3rem;
+  margin-left: 2rem;
+  margin-right: 4rem;
+
+
+}
+
+.bc-colors {
+  height: 3800px;
+  width: 100%;
+  background-image: linear-gradient(red, black, red);
+  color: white;
+  margin-top: 5%;
+}
+
+.product_list_item {
+  float: left;
+  width: 30%;
+  margin: 4%;
+  margin-right: 3rem;
+  color: white;
+
+}
+
+.product_list_item img {
+  height: 200px;
+  width: 100%;
+
+
+}
+
+.line {
+
+  width: 100%;
+}
+
+
+.product_list_item:first-of-type {
+  margin-left: 0;
+}
+
+.diet_plan {
+  margin: 4%;
+}
+
+.pic1 {
+  width: 100%;
+  height: 200px;
+
+
+}
+
+.pic2 {
+  display: flex;
+  width: 40%;
+  float: right;
+}
